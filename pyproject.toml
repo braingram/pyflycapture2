@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyflycapture2"
+version = "0.0.0.dev"
+
+[tool.setuptools]
+packages = ["flycapture2"]
